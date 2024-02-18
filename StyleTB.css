@@ -1,0 +1,66 @@
+*{
+    background: hsl(47, 88%, 63%);
+}
+.contenedor{
+    box-shadow: 10px 10px hsl(0, 0%, 7%);
+    margin: 15% 30% 15% 30%;
+    position:relative;
+    background:hsl(0, 0%, 100%);
+    border: solid;
+    border-color: hsl(0, 0%, 7%);
+    border-radius: 20px;
+    width: 40%;
+}
+.tarjeta{
+    margin: 5% 5% 5% 5%;
+    width: 90%;
+    border-radius: 15px;
+}
+.contenedor-texto{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 5%;
+    padding: 2% 2% 2% 2%;
+    border-radius: 5px;
+    width: fit-content;
+    background: HSL(47,88%,63%);
+}   
+p{
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5% 5% 5% 5%;
+    width: 90%;
+}
+.text2{
+    font-size: 25px;
+}
+.text3{
+    line-height: 25px;
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+}header{
+    background: white;
+    border-radius: 30px;
+    top: 0;
+}
+.avatar{
+    background: transparent;
+    display: inline-block;
+    width: 10%;
+    margin: 0% 0% 5% 5%;;
+}
+.text4{
+    width: 50%;
+    display: inline-block;
+    vertical-align:top;
+    font-size: 16px;
+}
+@media screen and (max-width:600px) {
+    .contenedor{
+        margin: 15% 15% 15% 15%;
+        width: 70%;
+    }
+}
